@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import 'bootswatch/dist/minty/bootstrap.min.css'; // Added this :boom:
+import Button from 'react-bootstrap/Button';
 import './App.css';
 
 function App() {
@@ -19,8 +20,14 @@ function App() {
         >
           Learn React
         </a>
+        <Button variant="primary" style={{ marginBottom: '10px' }}>
+          Primary button using react-bootstrap
+        </Button>
+        <Button variant="secondary" style={{ marginBottom: '10px' }}>
+          Secondary Button
+        </Button>
         <button className="btn btn-primary">
-          Primary
+          Primary using classes (default)
         </button>
       </header>
     </div>
