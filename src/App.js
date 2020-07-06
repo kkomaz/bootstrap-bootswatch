@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import 'bootswatch/dist/minty/bootstrap.min.css'; // Added this :boom:
 import './App.css';
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <button className="btn btn-primary">
+          Primary
+        </button>
       </header>
     </div>
   );
